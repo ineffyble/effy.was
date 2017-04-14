@@ -101,7 +101,7 @@ var todaystring=montharray[todaym]+" "+todayd+", "+todayy
 var paststring=montharray[m-1]+" "+d+", "+yr
 var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
 difference+=" days"
-document.write(before+difference+after)
+document.write("<nobr>"+before+difference+after+"</nobr>")
 }
 function countupev(yr,m,d,before,after){
 var today=new Date()
@@ -119,12 +119,12 @@ document.write(before+difference+after)
 }
 
 //enter the count up date using the format year/month/day
-countup(2016,06,25,"<h1>❤ Erin - 25-06-16 - <b>","</b></h1>")
+countup(2016,06,25,"<h1>❤ Erin - <nobr>25-06-16</nobr> - <b>","</b></h1>")
 //countup(2016,06,27,"<h1>💛 Cass - 27-06-16 - <b>","</b></h1>")
-countup(2016,07,17,"<h1>💜 Evelyn - 17-07-16 - <b>","</b></h1>")
-countup(2016,12,20,"<h1>💛 Bianca - 20-12-16 - <b>","</b></h1>")
-countup(2016,12,29,"<h1>💚 Jen - 29-12-16 - <b>","</b></h1>")
-countup(2016,12,31,"<h1>💙 Lulu - 31-12-16 - <b>","</b></h1>")
+countup(2016,07,17,"<h1>💜 Evelyn - <nobr>17-07-16</nobr> - <b>","</b></h1>")
+countup(2016,12,20,"<h1>💛 Bianca - <nobr>20-12-16</nobr> - <b>","</b></h1>")
+countup(2016,12,29,"<h1>💚 Jen - <nobr>29-12-16</nobr> - <b>","</b></h1>")
+countup(2016,12,31,"<h1>💙 Lulu - <nobr>31-12-16</nobr> - <b>","</b></h1>")
 </script>
 </div>
 </div>
