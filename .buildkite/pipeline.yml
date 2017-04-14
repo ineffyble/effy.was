@@ -1,4 +1,4 @@
 steps:
   - label: ':shipit:'
-    command: 'git remote add boopsystems dokku@boop.systems:effyis && git push boopsystems master'
+    command: 'ssh-keyscan boop.systems >> ~/.known_hosts && git remote add boopsystems dokku@boop.systems:effyis && git push boopsystems master'
     branches: 'master'
