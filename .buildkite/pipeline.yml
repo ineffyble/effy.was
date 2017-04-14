@@ -1,4 +1,4 @@
 steps:
   - label: ':shipit:'
-    command: 'ssh-keyscan boop.systems >> /etc/ssh/ssh_known_hosts && git push dokku@boop.systems:effyis master'
+    command: 'git push dokku@boop.systems:effyis master'
     branches: 'master'
