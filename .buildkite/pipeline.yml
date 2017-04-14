@@ -1,4 +1,4 @@
 steps:
   - label: ':shipit:'
-    command: 'git push dokku@boop.systems:effyis master'
+    command: 'git push dokku@boop.systems:effy.is master'
     branches: 'master'
