@@ -1,4 +1,4 @@
 steps:
-  - label: :shipit:
-    command: git remote add boopsystems dokku@boop.systems:effyis && git push boopsystems master
+  - label: ':shipit:'
+    command: 'git remote add boopsystems dokku@boop.systems:effyis && git push boopsystems master'
     branches: 'master'
