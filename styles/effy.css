@@ -4,7 +4,11 @@ body {
 }
 
 .container {
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+#name {
+  margin-bottom: 0.5rem;
 }
 
 #identity {
@@ -25,6 +29,10 @@ a:hover {
   color: #fc5aa3;
 }
 
-#cuties table tbody {
-  padding: 20px;
+#cuties th, #cuties td {
+  padding: 10px;
+}
+
+#cuties {
+  padding-bottom: 20px;
 }
